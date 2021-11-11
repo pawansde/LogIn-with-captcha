@@ -23,6 +23,7 @@ function valid()
     if(str1==str2)
     {
         alert("Login Successfull");
+        location.reload();
     }
     else
     {

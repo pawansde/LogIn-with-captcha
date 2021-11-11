@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+    #text1{
+
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding: 10px;
+        color: rgb(35, 231, 215);
+    }
+
+#container{
+
+    width: 50%;
+    height: 700px;
+    border: 1px solid rgb(218, 217, 217);
+    margin: auto;
+    box-shadow: 0px 1px 7px 1px #dab4b4;
+    background-color: rgb(251, 254, 255);
+    
+}
+
+
+
+#timer{
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+#main{
+    width: 50%;
+    margin: auto;
+}
+
+
+input[type=text]
+{
+    width: 100%;
+    margin: auto;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 17px;
+  }
+  
+
+  input[type=date]{
+    width: 50%;
+    margin: auto;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 17px;
+  }
+  
+
+  textarea{
+      width: 100%;
+      margin: auto;
+      padding: 12px 20px;
+      margin: 10px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      font-size: 17px;
+    }
+
+
+    #captcha1{
+        width: 40%;
+        margin: auto;
+        padding: 12px 20px;
+        margin: 10px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        color: red;
+        text-align: center;
+      }
+  
+      
+    #captcha2{
+        width: 50%;
+        float: right;
+        margin: auto;
+        padding: 12px 20px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        font-size: 17px;
+      }
+  
+
+      #btn{
+        width: auto;
+        margin-left: 40%;
+        padding: 12px 20px;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        justify-content: center;
+        cursor: pointer;
+        background-color: rgb(79, 207, 186);
+        color: white;
+        align-items: center;
+        justify-content: center;
+      }
+
+    

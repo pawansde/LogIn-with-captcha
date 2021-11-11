@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/clock.css">
+    <script src="javascript/script.js"></script>
+    <script src="javascript/clock.js"></script>
+</head>
+<body onload="timer(), captcha()">
+    
+
+    
+    <div id="container">
+        <h2 id="text1">Login Page</h2>
+
+        <div id="clock">
+                <h2 id="count">00</h2>
+                <h3 id="mcount">3</h3>
+                <span>minute Left</span>
+        </div>
+
+        <div id="main">
+
+              
+              <input type="text" id="name" name="name" placeholder="Your name...">
+          
+              <input type="text" id="email" name="email" placeholder="Your Email...">
+
+              <input type="date" id="birthday" name="birthday">
+
+              <textarea placeholder="About Yourself..."></textarea>
+
+              <input type="text" id="captcha1" name="captcha" readonly>
+
+              <input type="text" id="captcha2" name="captcha" placeholder="Enter Captcha...">
+
+              <br>
+              <br>
+              <button id="btn" onclick="valid()">SUBMIT</button>
+          </div>
+          
+          
+    </div>
+</body>
+</html>
